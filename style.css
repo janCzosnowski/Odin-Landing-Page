@@ -1,0 +1,63 @@
+header,
+header *{
+background-color: #1F2937;
+font-size: 24px;
+color: #F9FAF8;
+font-family: "Roboto", sans-serif;
+margin: 8px;;
+}
+header{
+    height: 600px;
+    margin:-8px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.hero-text,
+.texts,
+.linkBar,
+.links{
+    display: flex;
+    align-items: center;
+}
+.linkBar{
+justify-content: space-around;
+}
+.linkBar .Header-logo{
+    font-weight: 700;
+}
+.texts{
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-text *{
+    margin: 26px;
+}
+.hero-text{
+    height: 550px;
+    justify-content: center;
+}
+.texts{
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.hero-text .main{
+    font-size: 48px;
+    font-weight: 800;
+}
+.hero-text .subtext{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+a{
+    
+    border-radius: 25px;
+    background: #3882F6;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.hero-text .texts *{
+    margin: 2px;
+}
