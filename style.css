@@ -86,3 +86,55 @@ a{
     color: #1F2937;
     margin: 24px;
 }
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.quote .sign{
+align-self: flex-end;
+}
+.quote *{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 72px;
+}
+.quote .sign{
+    margin-top: -60px;
+    font-weight: 700;
+}
+.space{
+    background-color: #3882F6;
+    display: inline-block;
+    padding: 128px;
+    border-radius: 25px;
+}
+*{
+    text-align: center;
+}
+.signup .subtext{
+    font-size: 24px;
+}
+.signup .main{
+    font-weight: 600;
+}
+.signup{
+    font-size: 36px;
+    color: #F9FAF8;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin: 36px;
+    border-radius: 25px;
+    border: 2px solid #F9FAF8;
+    padding: 20px;
+}
+.signup a{
+
+    text-decoration: none;
+    color:inherit;
+}
